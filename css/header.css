@@ -1,0 +1,131 @@
+/* ----------------------header------------------ */
+.header__container{
+    background-color: rgb(238, 217, 224);
+    padding: 100px 0px 0px 50px ;
+}
+.header__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 100px;
+}
+.header__text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    max-width: 172px;      
+}
+.header__title{
+    max-width: 665px;
+    opacity: 0.9px;
+    font-family: Fredoka;
+    font-size: 57.33px;
+    font-weight: 600;
+    line-height: 69.08px;  
+    margin: 10px 0px 50px 0px;     
+}
+.header__span{
+    color: rgba(210, 49, 102, 1);
+}
+.header__info{
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 523px;
+}
+.header__btn{
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px; 
+    border: none;
+    background-color: rgba(210, 49, 102, 1);
+    color: rgba(250, 250, 250, 1);
+    margin: 50px 0px;    
+}
+.header__btn:hover{
+    border: 1px solid rgba(214, 67, 116, 1);
+    background-color: rgba(250, 250, 250, 1);
+    color: rgba(214, 67, 116, 1);
+    transform: scale(1.1);
+    transition: all 1.1s;
+}
+.header__img{
+    max-width: 550px;
+    height: 597px;
+}
+@media only screen and (max-width:1160px) {
+    .header__img{
+        max-width: 470px;
+    }
+    .header__list{
+        gap: 0px;
+    }
+    .header__title{
+        font-size: 47px;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .header__title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .header__text{
+        font-size: 12px;
+    }
+    .header__info{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .header__container{
+        padding: 50px 0 0 30px ;
+    }
+    .header__img{
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .header__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__title{
+        text-align: center;
+        font-size: 40px;
+        max-width: 450px;
+        margin: 0px auto;
+        padding: 70px 0px 20px 0px  ;
+    }
+    .header__text{
+        display: none;
+    }
+    .header__info{
+        text-align: center;
+        font-size: 17px;
+        max-width: 450px;
+        margin: 0px auto;
+    }
+    .header__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .header__img{
+        max-width: 450px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,172 @@
+/* -----------------product--------------- */
+.product__container{
+    margin: 0px 30px;
+}
+.product__title{
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 61px;
+    max-width: 338px;
+    margin: 20px auto;
+}
+.product__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+.product__subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px; 
+    opacity: 70%;
+    color: rgba(0, 0, 0, 1);
+}
+.product__subtitle:hover{
+    text-decoration: underline rgba(214, 67, 116, 1);
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 100%;
+}
+.product__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product__item{
+    width: 550px;
+    height: 450px;
+}
+.product__img{
+    width: 520px;
+    height: 400px;
+}
+.item__title{
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35.88px;
+    max-width: 252px;
+    margin: 40px 0px 10px 0px; 
+}
+.item__text{
+    max-width: 454px;
+    opacity: 0.7px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;       
+}
+.item__info{
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.88px;
+    margin: 20px auto;  
+}
+.product__span{
+    text-decoration: line-through ;
+    opacity: 70%;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px; 
+}
+.product__bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bottom__title{
+    max-width: 179px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;  
+}
+.bottom__text{
+    max-width: 77px;
+    margin: 15px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;  
+}
+.bottom__info{
+    max-width: 322px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;       
+}
+.bottom__span{
+    color: rgba(246, 118, 44, 1);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width:1190px) {
+    .product__item{
+        width: 400px;
+    }
+    .product__img{
+        width: 350px;
+        height: 350px;
+    }
+    .item__title{
+        font-size: 23px;
+    }
+    .item__text{
+        max-width: 354px;
+        font-size: 14px; 
+        line-height: 20px;      
+    }
+    .item__info{
+        font-size: 26px;
+        line-height: 35.88px;
+    }
+    .bottom__pic{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .product__list{
+        flex-direction: column;
+    }
+    .item__title{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .product__bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom__title{
+        text-align: center;
+        max-width: 279px;
+        font-size: 26px;  
+    }
+    .bottom__text{
+        max-width: 77px;
+        margin: 15px auto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14.06px;  
+    }
+    .bottom__info{
+        max-width: 322px;
+        text-align: center;       
+    }
+    .bottom__img{
+        display: flex;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .bottom__pic{
+        margin: 50px auto;
+        width: 300px;
+        height: 200px;
+    }
+}
