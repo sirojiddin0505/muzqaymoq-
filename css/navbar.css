@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     background: linear-gradient(to right, #e582b2, #cc8f64);
-    z-index: 1;
+    z-index: 100;
 }
 .navbar__container{
     display: flex;
@@ -24,7 +24,14 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 17.58px; 
-    color:white;    
+    color:white;   
+    cursor: pointer; 
+}
+.navbar__title:hover{
+    transform: scale(1.09);
+    transition: all 0.8s;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 .navbar__title:hover, .header__btn:hover{
     font-size: 25px;
@@ -33,7 +40,7 @@
     color: rgba(210, 49, 102, 1);
 }
 .navbar__btn, .header__btn{
-    padding: 14px 25px;
+    padding: 12px 22px;
     border-radius: 8px;
     border: none;
     background-color: rgba(210, 49, 102, 1);
@@ -47,8 +54,8 @@
     border: 1px solid rgba(214, 67, 116, 1);
     background-color: rgba(250, 250, 250, 1);
     color: rgba(214, 67, 116, 1);
-    transform: scale(1.1);
-    transition: all 1.1s;
+    transform: scale(1.05);
+    transition: all 0.8s;
 }
 .hum__menu{
     display: none;

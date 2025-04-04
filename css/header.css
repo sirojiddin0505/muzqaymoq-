@@ -1,7 +1,7 @@
 /* ----------------------header------------------ */
 .header__container{
     background-color: rgb(238, 217, 224);
-    padding: 100px 0px 0px 50px ;
+    padding: 100px 10px 50px 10px;
 }
 .header__list{
     display: flex;
@@ -19,9 +19,9 @@
 .header__title{
     max-width: 665px;
     font-family: Fredoka;
-    font-size: 5vh;
+    font-size: 55px;
     font-weight: 600;
-    line-height: 69.08px;  
+    line-height: 60px;  
     margin: 10px 0px 50px 0px;     
 }
 .header__span{
@@ -43,7 +43,7 @@
 }
 @media only screen and (max-width:1160px) {
     .header__title{
-        font-size: 47px;
+        font-size: 45px;
     }
 }
 
@@ -63,12 +63,15 @@
 @media only screen and (max-width:650px){
     .header__list{
         flex-direction: column-reverse;
+        padding-bottom: 0px;
     }
     .header__title{
         text-align: center;
         max-width: 550px;
         margin: 0px auto;
-        padding: 70px 0px 20px 0px ;
+        padding: 70px 0px 20px 0px;
+        font-size: 35px;
+        line-height: 40px;
     }
     .header__text{
         display: none;

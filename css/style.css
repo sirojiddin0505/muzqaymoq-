@@ -15,7 +15,6 @@
     max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid red;
 }
 /* -------------hero------------ */
 .hero__container{
@@ -392,8 +391,5 @@
     }
     .footer__input  {
         width: 250px;
-    }
-    .section__span{
-
     }
 }
