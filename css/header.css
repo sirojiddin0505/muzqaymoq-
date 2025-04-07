@@ -1,6 +1,8 @@
 /* ----------------------header------------------ */
-.header__container{
+.header{
     background-color: rgb(238, 217, 224);
+}
+.header__container{
     padding: 100px 10px 50px 10px;
 }
 .header__list{

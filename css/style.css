@@ -17,8 +17,10 @@
     padding: 20px;
 }
 /* -------------hero------------ */
-.hero__container{
+.hero{
     background-color: rgba(0, 0, 0, 0.03);
+}
+.hero__container{
     padding: 100px 0;
 }
 .hero__list{
@@ -53,8 +55,10 @@
 }
 
 /* -------------main------------ */
-.main__container{
+.main{
     background-color: rgba(248, 237, 240, 1);
+}
+.main__container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,8 +100,10 @@
 }
 
 /* --------------section----------- */
-.section__container{
+.section{
     background-color: rgba(248, 237, 240, 1);
+}
+.section__container{
     display: flex;
     justify-content: space-around;
     gap: 40px;
